@@ -4,6 +4,8 @@
     margin-top: 10px;
     height: 85vh;
     
+    overflow: hidden;
+    
 }
 
 .infoContainer{
@@ -109,12 +111,20 @@
     margin-top: 15px;
    }
    .infoContainer{
+      /* border: 1px solid black; */
     width: 80%;
    }
    .image-container{
+    margin-top: 55px;
+    /* border: 1px solid black; */
      width: 80%;
      transition: 0.5s;
     
+   }
+
+   .image-containe > img {
+     width: 200px;
+     height: 200px;
    }
 
 }

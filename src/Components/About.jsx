@@ -11,7 +11,7 @@ function About() {
       <div className="about-container">
 
         <div className="box">
-          <center><h3 lassName='title'>FRONTEND & MERN DEVELOPER</h3></center>
+          <center><h3 className='title'>FRONTEND & MERN DEVELOPER</h3></center>
 
           <h4 style={{ textAlign: "center", fontWeight: "370" }}>I am a passionate MERN Stack Developer and B.Tech student with strong knowledge of HTML, CSS, JavaScript, React, Node.js, and MongoDB. I love building modern, responsive, and user-friendly web applications.</h4>
         </div>

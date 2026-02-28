@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
-import '../StyleModule/About.css'
+// import '../StyleModule/About.css'
 
 function Skills() {
   return (
     <div><Navbar/>
         <div className="about-container">
                  
-        <div className="box">
+        <div className="box" style={{gap:"25px"}}>
           <center><h3>FRONTEND DEVELOPMENT</h3></center>
 
           {/* <h4 style={{ textAlign: "center", fontWeight: "370" }}></h4> */}

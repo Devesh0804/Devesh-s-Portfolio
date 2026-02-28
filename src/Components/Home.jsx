@@ -6,6 +6,7 @@ import '../StyleModule/Home.css'
 import About from './About'
 import { NavLink , Link} from 'react-router'
 function Home() {
+
   return (
     <div>
         <Navbar/>

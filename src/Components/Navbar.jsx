@@ -1,9 +1,10 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect,  useState } from 'react'
 import '../StyleModule/Navbar.css';
 import { NavLink } from 'react-router';
 import About from './About';
 
 function Navbar() {
+    
     const[screenWidth,setScreenWidth] = useState(window.innerWidth);
     
     const [showNav,setShowNav] = useState(false)

@@ -29,22 +29,25 @@ function Navbar() {
 
 
   return (
-    <div >
+    <div className='navbar-wrapper'>
         {  screenWidth > 768 || showNav ?
         
         <div className="container">
-             <div className='name'><h1 className='firstname'>Devesh</h1><h1 className='lastname'>Gupta</h1></div> 
+             <div className='name'>
+               <h1 className='firstname'>Devesh</h1>
+               <h1 className='lastname'>Gupta</h1>
+             </div> 
             <div className='list-container'>
-                <ul type = "none">
-                    <li><NavLink style={{textDecoration: "none"}} to='/'>Home</NavLink></li>
-                    <li><NavLink style={{textDecoration: "none"}} to='/about'>About</NavLink></li>
-                    <li><NavLink style={{textDecoration: "none"}} to='/skills'>Skills</NavLink></li>
-                    <li><NavLink style={{textDecoration: "none"}} to='/contact'>Contact</NavLink></li>
+                <ul className="nav-list">
+                    <li><NavLink className="nav-link" to='/'>Home</NavLink></li>
+                    <li><NavLink className="nav-link" to='/about'>About</NavLink></li>
+                    <li><NavLink className="nav-link" to='/skills'>Skills</NavLink></li>
+                    <li><NavLink className="nav-link" to='/contact'>Contact</NavLink></li>
                 </ul>
             </div>
-            {screenWidth >768 ? "" : <button className='btn' style={{margin:"0px 0px 10px 10px"}} onClick={closeNvbar}>Close</button>}
+            {screenWidth > 768 ? "" : <button className='btn close-btn' onClick={closeNvbar}>Close</button>}
         </div>
-        : <button className='btn' onClick={showNavbar}>☰</button>
+        : <button className='btn menu-btn' onClick={showNavbar}>☰ Menu</button>
     }
    
     </div>

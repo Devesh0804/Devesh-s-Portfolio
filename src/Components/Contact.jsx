@@ -9,8 +9,8 @@ function Contact() {
 
        <div className="contact-container">
          <div className='form-container'>
-       <center>    <h1 style={{fontFamily:'Poppins,sans-serif'}}>Contact <span style={{color:'blue'}}>Me!</span></h1></center>
-           <form action="" className= 'form' style={{}}>
+           <h1 className='contact-title'>Contact <span className='highlight-text'>Me!</span></h1>
+           <form action="" className='form'>
               <input type="text" name="" id="" placeholder='Full name'/>
               <input type="text" name="" id="" placeholder='Email Address'/>
               <input type="text" name="" id="" placeholder='Mobile Number' />

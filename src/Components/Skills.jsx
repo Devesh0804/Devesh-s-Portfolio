@@ -1,41 +1,41 @@
 import React from 'react'
 import Navbar from './Navbar'
-// import '../StyleModule/About.css'
+import '../StyleModule/About.css'
 
 function Skills() {
   return (
     <div><Navbar/>
         <div className="about-container">
                  
-        <div className="box" style={{gap:"25px"}}>
-          <center><h3>FRONTEND DEVELOPMENT</h3></center>
+        <div className="box">
+          <h3 className="title">FRONTEND DEVELOPMENT</h3>
 
-          {/* <h4 style={{ textAlign: "center", fontWeight: "370" }}></h4> */}
-          <ul style={{display:'flex',flexDirection:"column"}}>
-            <li style={{fontWeight: "370"}}>HTML-5</li>
-            <li style={{fontWeight: "370"}}>CSS-3</li>
-            <li style={{fontWeight: "370"}}>JavaScript</li>
-            <li style={{fontWeight: "370"}}>React.js</li>
-            <li style={{fontWeight: "370"}}>Responsive Design</li>
+          <ul className="skills-list">
+            <li>HTML-5</li>
+            <li>CSS-3</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Responsive Design</li>
           </ul>
         </div>
         <div className="box">
-          <center><h3>BACKEND DEVELOPMENT</h3></center>
-         <ul style={{display:'flex',flexDirection:"column"}}>
-            <li style={{fontWeight: "370"}}>Node.js</li>
-            <li style={{fontWeight: "370"}}>Express.js</li>
-            <li style={{fontWeight: "370"}}>REST API</li>
-            <li style={{fontWeight: "370"}}>MongoDB</li>
+          <h3 className="title">BACKEND DEVELOPMENT</h3>
+          <ul className="skills-list">
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>REST API</li>
+            <li>MongoDB</li>
           </ul>
         </div>
         <div className="box">
-          <center><h3 lassName='title'>TOOLS & OTHER SKILLS</h3></center>
-          <ul style={{display:'flex',flexDirection:"column"}}>
-            <li style={{fontWeight: "370"}}>Git & GitHub</li>
-            <li style={{fontWeight: "370"}}>VS Code</li>
-            <li style={{fontWeight: "370"}}>PostMan</li>
-            <li style={{fontWeight: "370"}}>Basic Data Structures</li>
-          </ul>        </div>
+          <h3 className="title">TOOLS & OTHER SKILLS</h3>
+          <ul className="skills-list">
+            <li>Git & GitHub</li>
+            <li>VS Code</li>
+            <li>PostMan</li>
+            <li>Basic Data Structures</li>
+          </ul>        
+        </div>
 
       </div>
     
